@@ -4,7 +4,7 @@ name: default
 build:
   image: debian
   commands:
-  - touch Hello
+  - touch Hello World
 
 steps:
 - name: docker  
