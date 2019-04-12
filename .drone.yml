@@ -9,7 +9,7 @@ steps:
     USERNAME:
       from_secret: SECRET
   commands:
-  - touch build-output-modified
+  - touch build-output-modified-again
   - echo $USERNAME
 
 - name: second-step
