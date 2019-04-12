@@ -1,7 +1,7 @@
 FROM alpine
 
 COPY . /root
+WORKDIR /root
 
-RUN ls -lh /root; echo 1
-
-RUN exit 1
+RUN pwd && \
+    ls -lh 

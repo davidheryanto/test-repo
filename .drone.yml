@@ -2,13 +2,33 @@
 kind: pipeline
 name: default
 
-build:
-  image: debian
+steps:
+- name: first-step
+  image: alpine
+  environment:
+    USERNAME:
+      from_secret: SECRET
   commands:
-  - date
-  - echo Hello
+  - touch build-output
+
+- name: second-step
+  image: alpine
+  environment:
+    USERNAME:
+      from_secret: SECRET
+  commands:
+  - pwd
+  - ls -lh
+
+
+# - name: docker  
+#   image: plugins/docker
+#   settings:
+#     username: kevinbacon
+#     password: pa55word
+#     repo: foo/bar
 ---
 kind: signature
-hmac: f73806149be3d44ba30fd4b223c70d3ad4cf7984df7c58b0ae6b414a38146ca5
+hmac: e6f0a82c6a9aff441f8984b6e9275dd09f72b10d115eeda143127fa715e91407
 
 ...
