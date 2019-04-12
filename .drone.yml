@@ -29,6 +29,6 @@ steps:
 #     repo: foo/bar
 ---
 kind: signature
-hmac: 384cbf2bb0f47b9977247c4426e50c67fc29b807af10774dbcde5680669a975a
+hmac: 7980ba8d6f8bc03322abcf8994d112e7e6e673cf1b0e3d295eeb167aaa18e57b
 
 ...
