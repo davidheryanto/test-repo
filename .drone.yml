@@ -15,6 +15,7 @@ steps:
 - name: second-step
   image: alpine
   commands:
+  - exit 1
   - pwd
   - ls -lh
   - echo $SECRET 
