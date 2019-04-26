@@ -5,11 +5,7 @@ steps:
 - name: test multiline
   image: alpine
   commands:
-  - >
-    echo Hello \
-         to \
-         the \
-         world
+  - exit 1
 
 # - name: second-step
 #   image: alpine
