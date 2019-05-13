@@ -7,7 +7,6 @@ Circle CI Badge
 Repo for testing 
 
 random stuff edited
-random stuff 2
 
 Added by another user again
 Tagged release
