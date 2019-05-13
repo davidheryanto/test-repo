@@ -38,7 +38,6 @@ workflows:
           requires: 
             - build
       - integration_test:
-          type: approval
           requires: 
            - unit_test
       - deploy:
