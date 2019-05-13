@@ -6,10 +6,3 @@ Circle CI Badge
 
 Repo for testing 
 
-random stuff edited
-
-Added by another user again
-Tagged release
-patch-1 12
-Again
-Hello
